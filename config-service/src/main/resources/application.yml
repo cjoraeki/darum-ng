@@ -1,11 +1,10 @@
 server:
   port: 8888
-
 spring:
   profiles:
     active: native
   application:
-    name: config-server
+    name: config-service
   cloud:
     config:
       server:
@@ -17,3 +16,7 @@ management:
     web:
       exposure:
         include: health, info
+
+logging:
+  level:
+    org.springframework.cloud.config: DEBUG

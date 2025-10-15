@@ -14,7 +14,7 @@ public class OpenApiConfig {
     public OpenAPI employeeManagementOpenAPI() {
         return new OpenAPI()
                 .info(new Info()
-                        .title("Employee Management API")
+                        .title("Darum Employee Management API")
                         .description("REST API for managing employees and departments in the HR system")
                         .version("1.0.0")
                         .contact(new Contact()

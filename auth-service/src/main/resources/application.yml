@@ -1,8 +1,8 @@
 spring:
-  config:
-    import: optional:configs:http://localhost:8888
   application:
     name: auth-service
+  config:
+    import: optional:config-service:http://localhost:8888
 
 #server:
 #  port: 8081
