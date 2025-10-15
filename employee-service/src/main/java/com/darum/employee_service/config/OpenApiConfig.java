@@ -7,10 +7,6 @@ import io.swagger.v3.oas.models.info.License;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-/**
- * OpenAPI configuration for the Employee Management microservice.
- * This provides metadata and customizes Swagger UI.
- */
 @Configuration
 public class OpenApiConfig {
 
